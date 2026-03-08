@@ -14,17 +14,14 @@ With the rapid growth of digital infrastructure, cyber threats such as malware a
 There is a need for an intelligent and automated system that can continuously monitor network activity and detect threats in real time.
 
 
-** Proposed Solution:**
+**Proposed Solution:**
 
 The proposed system uses Agentic AI combined with Machine Learning to analyze incoming network traffic and classify it as normal or malicious.
 The system automatically:
 
-Monitors network traffic,
-
-Processes and analyzes data,
-
-Detects potential cyber threats, 
-
+Monitors network traffic
+Processes and analyzes data
+Detects potential cyber threats
 Generates alerts for suspicious activities.
 
 This autonomous approach improves the efficiency and speed of cybersecurity monitoring.
@@ -68,43 +65,31 @@ Streamlit Dashboard
 **Usage:**
 
 Start the FastAPI backend server.
-
 Launch the Streamlit dashboard.
-
 The system begins monitoring network data.
-
 Incoming traffic is analyzed using the ML model.
-
 If malicious activity is detected, the system generates an alert.
 
 
  **Advantages:**
 
 Automated cyber threat detection
-
 Real-time network monitoring
-
 Reduced manual intervention
-
 Improved security response time
-
 Scalable AI-based architecture
 
 
-** Future Enhancements:**
+**Future Enhancements:**
 
 Integration with Deep Learning models
-
 Real-time network packet capture
-
 Automated threat response system
-
 Integration with SIEM platforms
-
 Deployment on cloud infrastructure
 
 
-** Conclusion:**
+**Conclusion:**
 
 The Agentic AI Based Autonomous Cyber Security System provides a smart and automated approach to cybersecurity. By combining AI agents, machine learning, and real-time monitoring, the system can detect threats quickly and assist organizations in protecting their networks from cyber attacks.
 
