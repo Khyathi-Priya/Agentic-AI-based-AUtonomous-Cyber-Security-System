@@ -1,0 +1,270 @@
+Timestamp,Prediction,Agent_Action
+2026-02-25 19:52:21,Normal,No Action Needed
+2026-02-25 19:52:26,Normal,No Action Needed
+2026-02-25 19:52:31,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:52:36,Normal,No Action Needed
+2026-02-25 19:52:41,Normal,No Action Needed
+2026-02-25 19:52:46,Normal,No Action Needed
+2026-02-25 19:52:51,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:52:56,Normal,No Action Needed
+2026-02-25 19:53:01,Normal,No Action Needed
+2026-02-25 19:53:06,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:53:11,Normal,No Action Needed
+2026-02-25 19:53:16,Normal,No Action Needed
+2026-02-25 19:53:21,Normal,No Action Needed
+2026-02-25 19:53:26,Normal,No Action Needed
+2026-02-25 19:53:31,Normal,No Action Needed
+2026-02-25 19:53:36,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:53:41,Normal,No Action Needed
+2026-02-25 19:53:46,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:53:51,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:53:56,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:54:01,Normal,No Action Needed
+2026-02-25 19:54:06,Normal,No Action Needed
+2026-02-25 19:54:11,Normal,No Action Needed
+2026-02-25 19:54:16,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:54:21,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:54:26,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:54:31,Normal,No Action Needed
+2026-02-25 19:54:36,Normal,No Action Needed
+2026-02-25 19:54:41,Normal,No Action Needed
+2026-02-25 19:54:46,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:54:51,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:54:56,Normal,No Action Needed
+2026-02-25 19:55:01,Normal,No Action Needed
+2026-02-25 19:55:06,Normal,No Action Needed
+2026-02-25 19:55:11,Normal,No Action Needed
+2026-02-25 19:55:16,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:55:21,Normal,No Action Needed
+2026-02-25 19:55:26,Normal,No Action Needed
+2026-02-25 19:55:31,Normal,No Action Needed
+2026-02-25 19:57:37,Normal,None
+2026-02-25 19:57:39,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:57:41,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:57:44,Normal,None
+2026-02-25 19:57:46,Normal,None
+2026-02-25 19:57:48,Normal,None
+2026-02-25 19:57:50,Normal,None
+2026-02-25 19:57:52,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:57:54,Normal,None
+2026-02-25 19:57:56,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:57:58,Normal,None
+2026-02-25 19:58:00,Normal,None
+2026-02-25 19:58:02,Normal,None
+2026-02-25 19:58:04,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:06,Normal,None
+2026-02-25 19:58:08,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:11,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:13,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:15,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:17,Normal,None
+2026-02-25 19:58:19,Normal,None
+2026-02-25 19:58:21,Normal,None
+2026-02-25 19:58:23,Normal,None
+2026-02-25 19:58:25,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:27,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:29,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:31,Normal,None
+2026-02-25 19:58:33,Normal,None
+2026-02-25 19:58:35,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:37,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:39,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:41,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:43,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:45,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:48,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:50,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:52,Normal,None
+2026-02-25 19:58:54,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:58:56,Normal,None
+2026-02-25 19:58:58,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:59:00,Normal,None
+2026-02-25 19:59:02,Normal,None
+2026-02-25 19:59:04,Normal,None
+2026-02-25 19:59:06,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:59:08,Normal,None
+2026-02-25 19:59:10,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:59:12,Normal,None
+2026-02-25 19:59:14,Normal,None
+2026-02-25 19:59:16,Normal,None
+2026-02-25 19:59:18,Normal,None
+2026-02-25 19:59:20,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:59:22,Normal,None
+2026-02-25 19:59:24,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:59:26,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:59:28,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:59:30,Normal,None
+2026-02-25 19:59:32,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:59:34,Normal,None
+2026-02-25 19:59:36,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:59:38,Normal,None
+2026-02-25 19:59:40,Normal,None
+2026-02-25 19:59:42,Normal,None
+2026-02-25 19:59:44,Normal,None
+2026-02-25 19:59:47,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:59:49,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:59:51,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:59:53,Normal,None
+2026-02-25 19:59:55,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 19:59:57,Normal,None
+2026-02-25 19:59:59,Normal,None
+2026-02-25 20:00:01,Normal,None
+2026-02-25 20:00:03,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 20:00:05,Normal,None
+2026-02-25 20:00:07,Normal,None
+2026-02-25 20:00:09,Normal,None
+2026-02-25 20:00:11,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 20:00:13,Attack,"Malicious Flow Blocked, Monitoring HIGH"
+2026-02-25 20:18:35,Normal,None,"Flow Pkts/s, Fwd Pkts/s, Init Fwd Win Byts",No action required,
+2026-02-25 20:18:35,Normal,None,"Fwd IAT Tot, Flow Duration, Fwd IAT Max",No action required,
+2026-02-25 20:18:35,Normal,None,"Flow Byts/s, Pkt Len Var, Flow Pkts/s",No action required,
+2026-02-25 20:18:35,Normal,None,"Flow Byts/s, Pkt Len Var, Init Fwd Win Byts",No action required,
+2026-02-25 20:18:35,Attack,DoS,"Flow Duration, Bwd IAT Tot, Fwd IAT Tot",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:18:35,Normal,None,"Flow Duration, Fwd IAT Tot, Bwd IAT Tot",No action required,
+2026-02-25 20:18:35,Normal,None,"Flow Byts/s, Flow Pkts/s, Pkt Len Var",No action required,
+2026-02-25 20:18:35,Normal,None,"Flow Byts/s, Pkt Len Var, Flow Pkts/s",No action required,
+2026-02-25 20:18:35,Normal,None,"Flow Duration, Flow IAT Mean, Flow IAT Max",No action required,
+2026-02-25 20:18:35,Normal,None,"Flow Byts/s, Flow Pkts/s, Bwd Pkts/s",No action required,
+2026-02-25 20:18:37,Attack,DoS,"Flow Pkts/s, Bwd Pkts/s, Fwd Pkts/s",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:18:40,Normal,None,"Flow Pkts/s, Fwd Pkts/s, Init Fwd Win Byts",No action required,
+2026-02-25 20:18:43,Normal,None,"Flow IAT Mean, Flow Duration, Flow IAT Max",No action required,
+2026-02-25 20:18:46,Attack,DoS,"Flow Pkts/s, Bwd Pkts/s, Fwd Pkts/s",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:18:49,Normal,None,"Flow Duration, Bwd IAT Tot, Fwd IAT Tot",No action required,
+2026-02-25 20:18:52,Attack,DoS,"Flow Pkts/s, Bwd Pkts/s, Fwd Pkts/s",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:18:55,Normal,None,"Flow Byts/s, Flow Pkts/s, Bwd Pkts/s",No action required,
+2026-02-25 20:18:58,Attack,DoS,"Flow Duration, Bwd IAT Tot, Fwd IAT Tot",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:19:01,Normal,None,"Flow Duration, Fwd IAT Tot, Bwd IAT Tot",No action required,
+2026-02-25 20:19:04,Normal,None,"Flow Pkts/s, Fwd Pkts/s, Flow IAT Mean",No action required,
+2026-02-25 20:19:11,Attack,DoS,"Flow Pkts/s, Bwd Pkts/s, Fwd Pkts/s",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:19:14,Normal,None,"Flow Byts/s, Flow Pkts/s, Pkt Len Var",No action required,
+2026-02-25 20:19:17,Normal,None,"Flow Byts/s, Pkt Len Var, Flow Pkts/s",No action required,
+2026-02-25 20:19:21,Normal,None,"Flow Duration, Fwd IAT Tot, Bwd IAT Tot",No action required,
+2026-02-25 20:19:28,Normal,None,"Flow Duration, Fwd IAT Tot, Bwd IAT Tot",No action required,
+2026-02-25 20:19:31,Attack,DoS,"Flow Duration, Bwd IAT Tot, Fwd IAT Tot",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:19:37,Normal,None,"Flow Pkts/s, Fwd Pkts/s, Dst Port",No action required,
+2026-02-25 20:19:40,Attack,DoS,"Flow Pkts/s, Bwd Pkts/s, Fwd Pkts/s",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:19:44,Attack,DoS,"Flow Pkts/s, Bwd Pkts/s, Fwd Pkts/s",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:19:47,Normal,None,"Flow Byts/s, Flow Pkts/s, Fwd Pkts/s",No action required,
+2026-02-25 20:19:50,Attack,DoS,"Flow Pkts/s, Bwd Pkts/s, Fwd Pkts/s",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:19:53,Normal,None,"Flow Duration, Bwd IAT Tot, Fwd IAT Tot",No action required,
+2026-02-25 20:19:56,Normal,None,"Flow Byts/s, Pkt Len Var, Flow Pkts/s",No action required,
+2026-02-25 20:19:59,Normal,None,"Flow Pkts/s, Dst Port, Fwd Pkts/s",No action required,
+2026-02-25 20:20:02,Normal,None,"Flow IAT Mean, Flow Duration, Flow IAT Max",No action required,
+2026-02-25 20:20:05,Normal,None,"Dst Port, Flow Pkts/s, Fwd Pkts/s",No action required,
+2026-02-25 20:20:08,Attack,DoS,"Flow Pkts/s, Bwd Pkts/s, Fwd Pkts/s",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:20:11,Attack,DoS,"Flow Pkts/s, Bwd Pkts/s, Fwd Pkts/s",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:20:14,Normal,None,"Dst Port, Flow Pkts/s, Fwd Pkts/s",No action required,
+2026-02-25 20:20:17,Normal,None,"Flow Pkts/s, Fwd Pkts/s, Dst Port",No action required,
+2026-02-25 20:20:20,Normal,None,"Flow Byts/s, Flow Pkts/s, Fwd Pkts/s",No action required,
+2026-02-25 20:20:23,Normal,None,"Flow Duration, Fwd IAT Tot, Bwd IAT Tot",No action required,
+2026-02-25 20:20:26,Attack,DoS,"Flow Pkts/s, Bwd Pkts/s, Fwd Pkts/s",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:20:29,Normal,None,"Flow Byts/s, Flow Pkts/s, Bwd Pkts/s",No action required,
+2026-02-25 20:20:32,Normal,None,"Flow Duration, Fwd IAT Min, Fwd IAT Max",No action required,
+2026-02-25 20:20:35,Normal,None,"Flow Byts/s, Flow Pkts/s, Fwd Pkts/s",No action required,
+2026-02-25 20:20:38,Attack,DoS,"Flow Pkts/s, Bwd Pkts/s, Fwd Pkts/s",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:20:41,Normal,None,"Flow Duration, Fwd IAT Tot, Flow IAT Max",No action required,
+2026-02-25 20:20:44,Normal,None,"Flow Duration, Fwd IAT Tot, Fwd IAT Max",No action required,
+2026-02-25 20:20:47,Attack,DoS,"Flow Pkts/s, Bwd Pkts/s, Fwd Pkts/s",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:20:50,Normal,None,"Fwd IAT Tot, Flow Duration, Bwd IAT Tot",No action required,
+2026-02-25 20:20:53,Attack,DoS,"Flow Duration, Bwd IAT Tot, Fwd IAT Tot",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:20:56,Normal,None,"Flow Duration, Fwd IAT Tot, Bwd IAT Tot",No action required,
+2026-02-25 20:20:59,Normal,None,"Flow Byts/s, Flow Pkts/s, Fwd Pkts/s",No action required,
+2026-02-25 20:21:02,Attack,DoS,"Flow Pkts/s, Bwd Pkts/s, Fwd Pkts/s",Action Taken,"Alerted, Logged, Blocked"
+2026-02-25 20:21:05,Normal,None,"Flow Byts/s, Flow Pkts/s, Bwd Pkts/s",No action required,
+2026-02-25 20:23:40,Normal,None,"Flow Byts/s,Pkt Len Var,Flow Pkts/s",No action required,
+2026-02-25 20:23:44,Normal,None,"Flow Pkts/s,Dst Port,Fwd Pkts/s",No action required,
+2026-02-25 20:23:47,Normal,None,"Init Bwd Win Byts,Flow Pkts/s,Dst Port",No action required,
+2026-02-25 20:23:51,Attack,DoS,"Flow Pkts/s,Bwd Pkts/s,Fwd Pkts/s",Action Taken,"Alerted,Logged,Blocked"
+2026-02-25 20:23:54,Normal,None,"Flow Byts/s,Fwd Pkts/s,Flow Pkts/s",No action required,
+2026-02-25 20:23:57,Attack,DoS,"Flow Pkts/s,Bwd Pkts/s,Fwd Pkts/s",Action Taken,"Alerted,Logged,Blocked"
+2026-02-25 20:24:00,Normal,None,"Fwd IAT Tot,Flow Duration,Fwd IAT Max",No action required,
+2026-02-25 20:24:04,Normal,None,"Flow Byts/s,Flow Pkts/s,Fwd Pkts/s",No action required,
+2026-02-25 20:24:06,Attack,DoS,"Flow Pkts/s,Bwd Pkts/s,Fwd Pkts/s",Action Taken,"Alerted,Logged,Blocked"
+2026-02-25 20:24:12,Normal,None,"Flow Byts/s,Pkt Len Var,Flow Pkts/s",No action required,
+2026-02-25 20:24:15,Normal,None,"Flow Byts/s,Flow Pkts/s,Flow IAT Mean",No action required,
+2026-02-25 20:24:18,Attack,DoS,"Flow Pkts/s,Bwd Pkts/s,Fwd Pkts/s",Action Taken,"Alerted,Logged,Blocked"
+2026-02-25 20:24:21,Normal,None,"Flow Byts/s,Flow Pkts/s,Dst Port",No action required,
+2026-02-25 20:24:24,Attack,DoS,"Flow Pkts/s,Bwd Pkts/s,Fwd Pkts/s",Action Taken,"Alerted,Logged,Blocked"
+2026-02-25 20:24:27,Normal,None,"Flow Duration,Fwd IAT Tot,Bwd IAT Tot",No action required,
+2026-02-25 20:24:30,Normal,None,"Flow Pkts/s,Fwd Pkts/s,Init Fwd Win Byts",No action required,
+2026-02-25 20:24:33,Normal,None,"Flow Duration,Fwd IAT Tot,Fwd IAT Max",No action required,
+2026-02-25 20:24:36,Normal,None,"Flow Duration,Fwd IAT Tot,Bwd IAT Tot",No action required,
+2026-02-25 20:27:12,Normal,None,"Flow Pkts/s,Dst Port,Fwd Pkts/s",No Action,Monitor
+2026-02-25 20:27:12,Attack,Unknown Attack,"Flow Pkts/s,Bwd Pkts/s,Fwd Seg Size Min",Engage2026-02-25 20:27:12,Normal,None,"Flow IAT Min,ACK Flag Cnt,Dst Port",No Action,Monitor
+2026-02-25 20:27:12,Normal,None,"Down/Up Ratio,PSH Flag Cnt,Bwd IAT Std",No Action,Monitor
+2026-02-25 20:27:14,Normal,None,"Fwd IAT Mean,Flow IAT Mean,ACK Flag Cnt",No Action,Monitor
+2026-02-25 20:27:18,Attack,Unknown Attack,"Fwd Seg Size Min,ACK Flag Cnt,URG Flag Cnt",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:27:25,Attack,Unknown Attack,"Bwd Pkt Len Max,Fwd Pkt Len Max,Fwd Act Data Pkts",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:27:28,Normal,None,"Pkt Len Min,Bwd Pkt Len Min,Protocol",No Action,Monitor
+2026-02-25 20:27:31,Normal,None,"Fwd Pkt Len Std,Init Bwd Win Byts,Init Fwd Win Byts",No Action,Monitor
+2026-02-25 20:27:34,Normal,None,"Pkt Len Max,Bwd Pkt Len Max,Bwd Pkt Len Std",No Action,Monitor
+2026-02-25 20:27:37,Attack,Unknown Attack,"Bwd Pkt Len Max,Fwd Pkt Len Max,Fwd Act Data Pkts",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:27:40,Normal,None,"Bwd IAT Mean,PSH Flag Cnt,Bwd IAT Std",No Action,Monitor
+2026-02-25 20:27:43,Attack,Unknown Attack,"Flow Pkts/s,Bwd Pkts/s,Fwd Seg Size Min",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:27:46,Normal,None,"Fwd Pkt Len Std,Init Bwd Win Byts,Init Fwd Win Byts",No Action,Monitor
+2026-02-25 20:27:49,Attack,Unknown Attack,"Fwd Pkts/s,Flow Pkts/s,Bwd Pkts/s",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:27:52,Normal,None,"Fwd Pkt Len Mean,Fwd Seg Size Avg,PSH Flag Cnt",No Action,Monitor
+2026-02-25 20:27:55,Normal,None,"Fwd Pkts/s,Flow Byts/s,Dst Port",No Action,Monitor
+2026-02-25 20:27:58,Normal,None,"ACK Flag Cnt,URG Flag Cnt,Dst Port",No Action,Monitor
+2026-02-25 20:28:01,Normal,None,"URG Flag Cnt,Init Bwd Win Byts,Dst Port",No Action,Monitor
+2026-02-25 20:28:04,Attack,Unknown Attack,"Bwd Pkt Len Max,Fwd Pkt Len Max,Fwd Act Data Pkts",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:28:07,Attack,Unknown Attack,"PSH Flag Cnt,Init Fwd Win Byts,Fwd Seg Size Min",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:28:10,Attack,Unknown Attack,"Fwd Seg Size Min,ACK Flag Cnt,URG Flag Cnt",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:28:13,Normal,None,"Flow IAT Min,Dst Port,ACK Flag Cnt",No Action,Monitor
+2026-02-25 20:28:16,Attack,Unknown Attack,"Bwd Pkt Len Max,Fwd Pkt Len Max,Fwd Act Data Pkts",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:28:19,Normal,None,"Fwd Pkt Len Min,Pkt Len Min,Protocol",No Action,Monitor
+2026-02-25 20:28:22,Normal,None,"Fwd Pkt Len Min,Pkt Len Min,Protocol",No Action,Monitor
+2026-02-25 20:28:25,Attack,Unknown Attack,"Fwd Seg Size Min,ACK Flag Cnt,URG Flag Cnt",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:28:28,Attack,Unknown Attack,"Bwd Pkt Len Max,Fwd Pkt Len Max,Fwd Act Data Pkts",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:28:31,Normal,None,"Pkt Len Min,Protocol,Bwd Pkt Len Min",No Action,Monitor
+2026-02-25 20:28:34,Normal,None,"Fwd Pkt Len Min,Pkt Len Min,Protocol",No Action,Monitor
+2026-02-25 20:28:37,Attack,Unknown Attack,"Fwd Seg Size Min,ACK Flag Cnt,URG Flag Cnt",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:28:40,Attack,Unknown Attack,"Fwd Pkts/s,Flow Pkts/s,Bwd Pkts/s",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:28:43,Normal,None,"Fwd Pkt Len Min,Pkt Len Min,Protocol",No Action,Monitor
+2026-02-25 20:28:46,Normal,None,"Pkt Len Min,Bwd Pkt Len Min,Protocol",No Action,Monitor
+2026-02-25 20:28:49,Normal,None,"ACK Flag Cnt,Fwd PSH Flags,SYN Flag Cnt",No Action,Monitor
+2026-02-25 20:28:52,Normal,None,"Fwd IAT Min,Flow IAT Min,ACK Flag Cnt",No Action,Monitor
+2026-02-25 20:28:55,Normal,None,"Bwd IAT Tot,Bwd IAT Max,Bwd IAT Std",No Action,Monitor
+2026-02-25 20:28:58,Normal,None,"Fwd Pkt Len Mean,Fwd Pkt Len Std,Init Bwd Win Byts",No Action,Monitor
+2026-02-25 20:29:01,Normal,None,"Fwd Pkt Len Min,Pkt Len Min,Protocol",No Action,Monitor
+2026-02-25 20:29:04,Normal,None,"Down/Up Ratio,PSH Flag Cnt,Bwd IAT Std",No Action,Monitor
+2026-02-25 20:29:07,Attack,Unknown Attack,"Fwd Pkts/s,Flow Pkts/s,Bwd Pkts/s",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:29:10,Attack,Unknown Attack,"Fwd Pkts/s,Flow Pkts/s,Bwd Pkts/s",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:29:13,Normal,None,"Bwd Seg Size Avg,Pkt Len Std,Bwd Pkt Len Std",No Action,Monitor
+2026-02-25 20:29:16,Attack,Unknown Attack,"Fwd Seg Size Min,ACK Flag Cnt,URG Flag Cnt",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:29:19,Normal,None,"Pkt Len Min,Bwd Pkt Len Min,Protocol",No Action,Monitor
+2026-02-25 20:29:22,Normal,None,"Protocol,Fwd Pkt Len Min,Pkt Len Min",No Action,Monitor
+2026-02-25 20:29:25,Attack,Unknown Attack,"Fwd Pkts/s,Flow Pkts/s,Bwd Pkts/s",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:29:28,Normal,None,"Down/Up Ratio,Bwd Pkt Len Std,PSH Flag Cnt",No Action,Monitor
+2026-02-25 20:29:31,Normal,None,"Fwd Pkt Len Min,Pkt Len Min,Protocol",No Action,Monitor
+2026-02-25 20:29:34,Attack,Unknown Attack,"Bwd Pkt Len Max,Fwd Pkt Len Max,Fwd Act Data Pkts",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:29:37,Attack,Unknown Attack,"Fwd Pkts/s,Flow Pkts/s,Bwd Pkts/s",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:29:40,Normal,None,"Fwd Pkt Len Min,Pkt Len Min,Protocol",No Action,Monitor
+2026-02-25 20:29:43,Normal,None,"Protocol,Fwd Pkt Len Min,Pkt Len Min",No Action,Monitor
+2026-02-25 20:29:46,Normal,None,"Fwd Pkt Len Min,Pkt Len Min,Protocol",No Action,Monitor
+2026-02-25 20:29:49,Normal,None,"ACK Flag Cnt,Fwd PSH Flags,SYN Flag Cnt",No Action,Monitor
+2026-02-25 20:29:52,Normal,None,"ACK Flag Cnt,URG Flag Cnt,Dst Port",No Action,Monitor
+2026-02-25 20:29:55,Attack,Unknown Attack,"Flow Pkts/s,Bwd Pkts/s,Fwd Seg Size Min",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:29:58,Normal,None,"Pkt Len Min,Bwd Pkt Len Min,Protocol",No Action,Monitor
+2026-02-25 20:30:01,Attack,Unknown Attack,"Fwd Seg Size Min,ACK Flag Cnt,URG Flag Cnt",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:30:04,Normal,None,"Fwd Seg Size Avg,Fwd Pkt Len Mean,Init Bwd Win Byts",No Action,Monitor
+2026-02-25 20:30:07,Normal,None,"Fwd Act Data Pkts,Bwd IAT Mean,Bwd IAT Tot",No Action,Monitor
+2026-02-25 20:30:10,Normal,None,"Fwd Pkt Len Min,Pkt Len Min,Protocol",No Action,Monitor
+2026-02-25 20:30:13,Normal,None,"Protocol,Fwd Pkt Len Min,Pkt Len Min",No Action,Monitor
+2026-02-25 20:30:16,Normal,None,"Dst Port,ACK Flag Cnt,Init Fwd Win Byts",No Action,Monitor
+2026-02-25 20:30:19,Attack,Unknown Attack,"Flow Pkts/s,Bwd Pkts/s,Fwd Seg Size Min",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:30:22,Normal,None,"Pkt Len Min,Protocol,Bwd Pkt Len Min",No Action,Monitor
+2026-02-25 20:30:25,Attack,Unknown Attack,"Fwd Seg Size Min,ACK Flag Cnt,URG Flag Cnt",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:30:28,Normal,None,"Flow IAT Min,ACK Flag Cnt,Init Fwd Win Byts",No Action,Monitor
+2026-02-25 20:30:31,Normal,None,"Flow IAT Min,ACK Flag Cnt,Init Fwd Win Byts",No Action,Monitor
+2026-02-25 20:30:34,Normal,None,"ACK Flag Cnt,Init Bwd Win Byts,FIN Flag Cnt",No Action,Monitor
+2026-02-25 20:30:37,Attack,Unknown Attack,"Fwd Seg Size Min,ACK Flag Cnt,URG Flag Cnt",Engage Security Measures,"Alert,Log,Block"
+2026-02-25 20:30:40,Normal,None,"Pkt Len Std,Bwd Pkt Len Mean,Bwd Seg Size Avg",No Action,Monitor
+2026-02-25 20:37:03,203703,Normal,None,"Bwd IAT Tot, Bwd IAT Std, Bwd IAT Max",No Action,Monitor
+2026-02-25 20:37:03,203703,Attack,FTP-BruteForce,"Flow Pkts/s, Bwd Pkts/s, Fwd Seg Size Min",Engage Security Measures,"Alert, Log, Block"
+2026-02-25 20:37:04,203704,Normal,None,"Active Max, Active Std, Bwd IAT Tot",No Action,Monitor
+2026-02-25 20:38:32,203832,Normal,None,"Pkt Len Min, Bwd Pkt Len Min, Protocol",No Action,Monitor
+2026-02-25 20:38:32,203832,Normal,None,"Fwd Pkt Len Std, Init Bwd Win Byts, Init Fwd Win Byts",No Action,Monitor
+2026-02-25 20:38:32,203832,Normal,None,"Fwd Pkt Len Min, Pkt Len Min, Protocol",No Action,Monitor
+2026-02-25 20:38:32,203832,Attack,SSH-Bruteforce,"Bwd Pkt Len Max, Fwd Pkt Len Max, Fwd Act Data Pkts",Engage Security Measures,"Alert, Log, Block"
+2026-02-25 20:38:38,203838,Attack,FTP-BruteForce,"PSH Flag Cnt, Init Fwd Win Byts, Fwd Seg Size Min",Engage Security Measures,"Alert, Log, Block"
