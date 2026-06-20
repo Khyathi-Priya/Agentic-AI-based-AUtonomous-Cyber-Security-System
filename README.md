@@ -126,6 +126,20 @@ Observe → Analyze → Decide → Act
 
 ---
 
+## 🤖 Agent Decision Logic
+
+IF prediction == "Attack":
+    IF confidence > threshold:
+        → Trigger High Alert
+        → Log Event
+        → Suggest Mitigation Action
+    ELSE:
+        → Monitor Closely
+
+ELSE:
+    → Mark as Normal Traffic
+
+    
 ## 🔐 Threat Detection Process
 
 ### Step 1: Data Input
