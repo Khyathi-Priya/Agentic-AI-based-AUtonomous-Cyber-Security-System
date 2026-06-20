@@ -163,16 +163,29 @@ Built using Streamlit for real-time monitoring.
 
 ---
 
-## 📈 Model Performance
+## 📸 Screenshots
 
-* Accuracy: ~XX%
-* Precision: ~XX%
-* Recall: ~XX%
-* F1 Score: ~XX%
+### 🖥️ 1. Dashboard View
 
-> (Update these after evaluating your trained model)
+<p align="center">
+  <img src="assets/main output.png" width="750"/>
+</p>
 
 ---
+
+### ⚠️ 2. Threat Detection Output
+
+<p align="center">
+  <img src="assets/threat detected.png" width="750"/>
+</p>
+
+---
+
+### 🤖 3. Agent Decision / Alert System
+
+<p align="center">
+  <img src="assets/detection records and agent suggestions.png" width="750"/>
+</p>
 
 ## 🌍 Impact
 
