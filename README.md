@@ -1,69 +1,61 @@
-# 🛡️ AI-Based Autonomous Cybersecurity Threat Detection System
+# 🛡️ Agentic AI-Based Autonomous Cybersecurity System
 
-## 📌 Overview
-
-Cyber attacks are becoming increasingly sophisticated, making traditional rule-based security systems less effective in detecting modern threats. This project presents an AI-powered autonomous cybersecurity system that monitors network traffic, detects malicious activities, and performs intelligent response actions.
-
-The system uses a Machine Learning model trained on network traffic data from the CICIDS dataset to classify traffic as:
-
-- Benign (Normal Traffic)
-- FTP Brute Force Attack
-- SSH Brute Force Attack
-
-An intelligent agent analyzes the model's predictions and initiates appropriate security actions such as threat alerts and attack mitigation recommendations.
+An AI-powered autonomous cybersecurity system that monitors network traffic, detects malicious activity, and performs intelligent response actions using Machine Learning and Agentic AI principles.
 
 ---
 
-## 🎯 Problem Statement
+## ⭐ Key Highlights
 
-With the rapid growth of internet-connected systems, cyber attacks such as brute force attacks have become increasingly common. Traditional security systems often rely on predefined rules and manual monitoring, making them less effective against evolving threats.
+* End-to-end cybersecurity ML pipeline
+* Real-world CICIDS dataset integration
+* Random Forest-based intrusion detection system
+* Agentic AI decision-making layer for autonomous response
+* Streamlit-based interactive monitoring dashboard
+* Automated threat classification and alert system
 
-Organizations and individuals require an intelligent system capable of:
+---
 
-- Monitoring network traffic automatically
-- Detecting malicious activities in real time
-- Reducing human intervention
-- Providing faster threat response
+## 🚨 Problem Statement
+
+Modern cyber attacks are becoming increasingly complex and difficult to detect using traditional rule-based systems. These systems rely heavily on manual monitoring and predefined rules, making them ineffective against evolving attack patterns.
+
+There is a need for an intelligent system that can:
+
+* Automatically monitor network traffic
+* Detect malicious activity in real time
+* Reduce human intervention
+* Provide fast and intelligent response actions
 
 ---
 
 ## 💡 Proposed Solution
 
-This project implements an AI-based cybersecurity monitoring system that:
+This project implements an AI-driven cybersecurity system that:
 
-1. Analyzes network traffic features
-2. Detects malicious behavior using Machine Learning
-3. Classifies traffic into attack categories
-4. Uses an intelligent agent to perform automated response actions
-5. Displays results through a Streamlit-based dashboard
-
-The system acts as a smart cybersecurity assistant capable of identifying suspicious patterns and assisting in threat mitigation.
+* Collects and analyzes network traffic data
+* Uses a Machine Learning model to detect anomalies
+* Classifies traffic into benign or attack categories
+* Uses an Agentic AI layer to make autonomous decisions
+* Displays results in a real-time Streamlit dashboard
 
 ---
 
-## 🏗️ System Architecture
+## 🧠 System Architecture
 
 ```text
-Network Traffic
-       │
-       ▼
-Feature Extraction
-       │
-       ▼
-Random Forest Model
-       │
-       ▼
-Threat Classification
-(Benign / FTP Brute Force / SSH Brute Force)
-       │
-       ▼
-Agentic AI Decision Layer
-       │
-       ▼
-Threat Response & Alert
-       │
-       ▼
-Streamlit Dashboard
+Network Traffic Data
+        ↓
+Feature Engineering Layer
+        ↓
+Machine Learning Model (Random Forest)
+        ↓
+Prediction Output
+        ↓
+Agentic AI Decision Engine
+        ↓
+Risk Evaluation + Action Selection
+        ↓
+Streamlit Dashboard + Alerts
 ```
 
 ---
@@ -72,59 +64,31 @@ Streamlit Dashboard
 
 ### CICIDS Dataset
 
-This project uses a subset of the CICIDS (Canadian Institute for Cybersecurity Intrusion Detection System) dataset, a widely used cybersecurity dataset containing real-world network traffic and attack scenarios.
+A widely used cybersecurity dataset containing real-world network traffic and attack scenarios.
 
 ### Target Classes
 
-| Class | Description |
-|---------|------------|
-| Benign | Normal network traffic |
-| FTP Brute Force | Password guessing attacks targeting FTP services |
-| SSH Brute Force | Password guessing attacks targeting SSH services |
-
-### Why This Dataset?
-
-- Realistic network traffic data
-- Well-labeled attack categories
-- Widely used in cybersecurity research
-- Suitable for intrusion detection systems
+| Class           | Description                     |
+| --------------- | ------------------------------- |
+| Benign          | Normal network traffic          |
+| FTP Brute Force | Unauthorized FTP login attempts |
+| SSH Brute Force | Unauthorized SSH login attempts |
 
 ---
 
-## 📊 Important Features Used
+## 🔍 Feature Engineering
 
-The model analyzes various network traffic characteristics, including:
+The model analyzes multiple network behavior features:
 
-### Flow Features
-- Flow Duration
-- Total Forward Packets
-- Total Backward Packets
+* Flow Duration
+* Packet Length Statistics
+* Flow Bytes per Second
+* Flow Packets per Second
+* Inter-arrival Time
+* Protocol Type
+* Connection Flags (SYN, ACK, FIN)
 
-### Packet Features
-- Packet Length Maximum
-- Packet Length Minimum
-- Packet Length Mean
-- Average Packet Size
-
-### Traffic Features
-- Flow Bytes per Second
-- Flow Packets per Second
-
-### Time-Based Features
-- Inter Arrival Time
-- Active Time
-- Idle Time
-
-### Protocol Features
-- Destination Port
-- Protocol Type
-
-### Connection Flags
-- SYN Flag Count
-- ACK Flag Count
-- FIN Flag Count
-
-These features help identify behavioral differences between normal traffic and cyber attacks.
+These features help distinguish normal behavior from attack patterns.
 
 ---
 
@@ -132,124 +96,102 @@ These features help identify behavioral differences between normal traffic and c
 
 ### Random Forest Classifier
 
-The project uses the Random Forest algorithm for threat classification.
+The system uses a Random Forest model for classification.
 
 ### Why Random Forest?
 
-- High accuracy
-- Handles large datasets efficiently
-- Reduces overfitting
-- Robust against noisy data
-- Excellent performance for classification tasks
-- Combines multiple decision trees for better predictions
-
-### Working Principle
-
-Random Forest creates multiple decision trees and combines their predictions through majority voting.
-
-Example:
-
-- Tree 1 → FTP Brute Force
-- Tree 2 → FTP Brute Force
-- Tree 3 → Benign
-
-Final Prediction:
-
-FTP Brute Force
+* High accuracy on structured data
+* Reduces overfitting
+* Handles noisy data effectively
+* Works well for intrusion detection tasks
 
 ---
 
-## 🤖 Agentic AI Component
+## 🤖 Agentic AI Decision Engine
 
-This project incorporates Agentic AI concepts.
+The Agent acts as an autonomous cybersecurity assistant.
 
-### What is an Agent?
+### Responsibilities:
 
-An agent is an intelligent entity that:
+* Receives model predictions
+* Triggers alerts for suspicious activity
+* Logs security events in the dashboard
+* Suggests mitigation actions (e.g., monitor traffic, block IP, raise alert)
 
-- Observes its environment
-- Makes decisions
-- Takes actions
-
-### Role of Agentic AI
-
-The agent:
-
-1. Monitors model predictions
-2. Identifies potential threats
-3. Generates alerts
-4. Suggests mitigation actions
-5. Assists in autonomous decision-making
-
-### Agent Workflow
+### Agent Workflow:
 
 ```text
 Observe → Analyze → Decide → Act
 ```
 
-### Benefits
-
-- Reduced human intervention
-- Faster threat response
-- Intelligent monitoring
-- Autonomous security assistance
-
 ---
 
-## 🔍 Threat Detection Process
+## 🔐 Threat Detection Process
 
-### Step 1: Data Collection
+### Step 1: Data Input
 
-Network traffic data is collected from the dataset.
+Network traffic data is collected from dataset.
 
-### Step 2: Feature Extraction
+### Step 2: Feature Processing
 
-Important network characteristics are extracted.
+Relevant network features are extracted.
 
 ### Step 3: Model Prediction
 
-The Random Forest model analyzes traffic patterns.
+Random Forest model classifies traffic.
 
-### Step 4: Classification
+### Step 4: Agent Decision
 
-Traffic is classified into:
+Agent evaluates prediction and decides action.
 
-- Benign
-- FTP Brute Force
-- SSH Brute Force
+### Step 5: Response
 
-### Step 5: Agent Response
-
-The intelligent agent:
-
-- Generates alerts
-- Flags suspicious activities
-- Suggests security actions
+System generates alerts and updates dashboard.
 
 ---
 
 ## 🌐 User Interface
 
-The application is built using Streamlit.
+Built using Streamlit for real-time monitoring.
 
-### Why Streamlit?
+### Features:
 
-- Fast development
-- Easy Python integration
-- Minimal code requirement
-- Excellent support for Machine Learning applications
-- Interactive dashboards
-
-### Dashboard Features
-
-- Threat detection results
-- Prediction visualization
-- Attack classification display
-- System monitoring interface
+* Live prediction display
+* Attack classification results
+* System status monitoring
+* Visual feedback dashboard
 
 ---
 
-## 🚀 Installation
+## 📈 Model Performance
+
+* Accuracy: ~XX%
+* Precision: ~XX%
+* Recall: ~XX%
+* F1 Score: ~XX%
+
+> (Update these after evaluating your trained model)
+
+---
+
+## 🌍 Impact
+
+This system demonstrates how artificial intelligence can enhance cybersecurity by reducing manual monitoring, improving detection speed, and enabling autonomous threat response.
+
+---
+
+## 🚀 Future Enhancements
+
+* Real-time network traffic monitoring
+* Integration with firewall automation systems
+* Deep learning-based intrusion detection models
+* Cloud deployment (AWS / Azure)
+* Multi-agent cybersecurity systems
+* Real-time IP blocking mechanisms
+
+---
+
+## ⚙️ Installation
 
 ### Clone Repository
 
@@ -257,13 +199,13 @@ The application is built using Streamlit.
 git clone https://github.com/Khyathi-Priya/Agentic-AI-based-AUtonomous-Cyber-Security-System.git
 ```
 
-### Navigate to Project Directory
+### Navigate to Project
 
 ```bash
 cd Agentic-AI-based-AUtonomous-Cyber-Security-System
 ```
 
-### Install Required Packages
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -277,140 +219,35 @@ streamlit run app.py
 
 ---
 
-## 📦 Technologies Used
+## 🧰 Tech Stack
 
-### Programming Language
-- Python
-
-### Machine Learning
-- Scikit-Learn
-- Random Forest Classifier
-
-### Data Processing
-- Pandas
-- NumPy
-
-### Visualization
-- Matplotlib
-
-### Frontend
-- Streamlit
+* Python
+* Scikit-learn
+* Pandas
+* NumPy
+* Matplotlib
+* Streamlit
 
 ---
 
-## 🔐 Attack Categories
+## 📊 Attack Categories
 
-### 1. Benign Traffic
-
-Normal network communication without malicious behavior.
-
-### 2. FTP Brute Force Attack
-
-Attackers repeatedly attempt different username-password combinations to gain unauthorized access to FTP servers.
-
-Characteristics:
-- High login attempts
-- Repeated connections
-- Small time intervals between requests
-
-### 3. SSH Brute Force Attack
-
-Attackers repeatedly attempt different credentials to access remote systems through SSH.
-
-Characteristics:
-- Multiple authentication attempts
-- High connection frequency
-- Abnormal access patterns
-
----
-
-## 🌍 Real-World Applications
-
-This project can be applied in:
-
-- Enterprise Network Security
-- Intrusion Detection Systems (IDS)
-- Security Operations Centers (SOC)
-- Educational Cybersecurity Platforms
-- Automated Threat Monitoring Systems
-- Research and Development Environments
-
----
-
-## 🔮 Future Enhancements
-
-Future improvements may include:
-
-- Real-time packet monitoring
-- Live network traffic integration
-- Deep Learning-based detection
-- Multi-class attack detection
-- Automated firewall integration
-- IP blocking mechanisms
-- Cloud deployment
-- Advanced analytics dashboard
-- Threat intelligence integration
-
----
-
-## 📈 Project Outcomes
-
-- Successfully classified network traffic
-- Detected FTP and SSH brute force attacks
-- Implemented autonomous decision-making concepts
-- Demonstrated practical AI applications in cybersecurity
-- Built an interactive monitoring dashboard
-
----
-
-## 📁 Project Structure
-
-```text
-AI-Cybersecurity-Threat-Detection/
-│
-├── app.py
-├── model.py
-├── dataset/
-│   └── cicids_subset.csv
-│
-├── models/
-│   └── random_forest.pkl
-│
-├── requirements.txt
-├── README.md
-│
-└── assets/
-    └── screenshots/
-```
-
----
-
-## 🎓 Learning Outcomes
-
-Through this project, the following concepts were explored:
-
-- Cybersecurity Fundamentals
-- Intrusion Detection Systems
-- Machine Learning for Security
-- Random Forest Classification
-- Network Traffic Analysis
-- Agentic AI Concepts
-- Streamlit Application Development
-- Threat Detection and Response
+* **Benign:** Normal traffic
+* **FTP Brute Force:** FTP login attack attempts
+* **SSH Brute Force:** SSH login attack attempts
 
 ---
 
 ## 👨‍💻 Author
 
-**Priya**  
+**Khyathi Priya Kamireddi**
 B.Tech – Computer Science Engineering (AI & ML)
+
+🔗 GitHub: https://github.com/Khyathi-Priya
+🔗 LinkedIn: https://www.linkedin.com/in/khyathi-priya-kamireddi-83144a2b8/
 
 ---
 
 ## 📜 License
 
-This project is developed for educational, research, and learning purposes.
-
----
-
-⭐ If you found this project useful, consider giving it a star on GitHub.
+This project is for educational and learning purposes.
