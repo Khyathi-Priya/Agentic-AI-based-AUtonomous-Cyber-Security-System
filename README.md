@@ -70,7 +70,7 @@ The **CICIDS (Canadian Institute for Cybersecurity Intrusion Detection System)**
 
 > ⚠️ **Note:** The dataset is too large to include in this repository. Download it directly from Kaggle:
 >
-> [![Kaggle](https://img.shields.io/badge/Download%20Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/cicdataset/cicids2017)
+> [![Kaggle]([https://img.shields.io/badge/Download%20Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/cicdataset/cicids2017](https://www.kaggle.com/datasets/ericanacletoribeiro/cicids2017-cleaned-and-preprocessed/data))
 >
 > After downloading, place the CSV files in the project root directory before running.
 
