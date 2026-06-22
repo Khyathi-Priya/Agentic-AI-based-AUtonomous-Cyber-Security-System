@@ -171,6 +171,7 @@ Agentic-AI-based-AUtonomous-Cyber-Security-System/
 
 ## 🚀 Future Enhancements
 
+- [ ] Add model evaluation metrics (accuracy, precision, recall, F1-score)
 - [ ] Real-time live network traffic monitoring
 - [ ] Integration with firewall automation systems
 - [ ] Deep learning-based intrusion detection (LSTM / CNN)
