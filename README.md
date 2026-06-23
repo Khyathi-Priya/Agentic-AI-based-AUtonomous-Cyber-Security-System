@@ -22,12 +22,12 @@
 
 Modern cyber attacks are growing in complexity, making rule-based systems ineffective. This project builds an **AI-driven autonomous cybersecurity system** that:
 
-- Monitors network traffic in real time
-- Detects malicious activity using a trained ML model
-- Applies an **Agentic AI decision engine** to autonomously classify threats and suggest responses
-- Displays live results on an interactive **Streamlit dashboard**
+- 🔍 Monitors network traffic in real time
+- 🤖 Detects malicious activity using a trained **Random Forest ML model**
+- 🧠 Applies an **Agentic AI decision engine** to autonomously classify threats and suggest responses
+- 📊 Displays live results on an interactive **Streamlit dashboard**
 
-> Built using the **CICIDS dataset** — a benchmark cybersecurity dataset with real-world attack scenarios.
+> Built using the **CICIDS 2017 dataset** — a benchmark cybersecurity dataset with real-world attack scenarios.
 
 ---
 
@@ -53,7 +53,7 @@ Feature Engineering Layer
         ↓
 ML Model — Random Forest Classifier
         ↓
-Prediction Output (Benign / Attack)
+Prediction Output (Benign / Attack Type)
         ↓
 Agentic AI Decision Engine
         ↓
@@ -64,9 +64,9 @@ Streamlit Dashboard + Alerts
 
 ---
 
-## 📂 Dataset — CICIDS
+## 📂 Dataset — CICIDS 2017
 
-The **CICIDS (Canadian Institute for Cybersecurity Intrusion Detection System)** dataset contains labeled network traffic flows representing both normal and attack behaviour.
+The **CICIDS (Canadian Institute for Cybersecurity Intrusion Detection System) 2017** dataset contains labeled network traffic flows representing both normal and attack behaviour across multiple attack categories.
 
 > ⚠️ **Note:** The dataset is too large to include in this repository. Download it directly from Kaggle:
 >
@@ -77,26 +77,77 @@ The **CICIDS (Canadian Institute for Cybersecurity Intrusion Detection System)**
 | Class | Description |
 |---|---|
 | Benign | Normal network traffic |
-| FTP Brute Force | Unauthorized FTP login attempts |
-| SSH Brute Force | Unauthorized SSH login attempts |
+| FTP-BruteForce | Unauthorized FTP login attempts |
+| SSH-BruteForce | Unauthorized SSH login attempts |
 
 ---
 
 ## 🔍 Features Used
 
-The model analyzes the following network behaviour features:
+The model analyzes the following network behaviour features extracted from traffic flows:
 
-- Flow Duration & Packet Length Statistics
-- Flow Bytes per Second & Packets per Second
-- Inter-arrival Time (IAT)
-- Protocol Type
-- Connection Flags — SYN, ACK, FIN
+| Feature Category | Features |
+|---|---|
+| Flow Statistics | Flow Duration, Flow Bytes/s, Flow Packets/s |
+| Packet Length | Min, Max, Mean, Std of packet lengths |
+| Inter-Arrival Time (IAT) | Mean, Std, Max, Min IAT |
+| Protocol & Flags | Protocol Type, SYN, ACK, FIN flag counts |
 
 ---
 
-## 🤖 Agentic AI Decision Engine
+## 🤖 ML Model — Random Forest Classifier
 
-The agent acts as an autonomous cybersecurity assistant with the following workflow:
+The core detection engine is a **Random Forest Classifier** trained on the CICIDS 2017 dataset.
+
+### Why Random Forest?
+- Handles high-dimensional network traffic data effectively
+- Robust to noise and outliers in network flows
+- Provides feature importance scores for interpretability
+- Resistant to overfitting compared to single decision trees
+
+### Training Pipeline (`MLmodel.py`)
+
+```
+Raw CSV Data (CICIDS 2017)
+        ↓
+Data Preprocessing
+  → Drop null/infinite values
+  → Encode labels (LabelEncoder)
+  → Scale features (StandardScaler)
+        ↓
+Train/Test Split (80/20)
+        ↓
+Random Forest Training
+  → n_estimators: 100 trees
+  → criterion: gini impurity
+        ↓
+Model Serialization
+  → ids_model.pkl  (trained classifier)
+  → scaler.pkl     (fitted StandardScaler)
+```
+
+### Model Artifacts
+
+| File | Description |
+|---|---|
+| `ids_model.pkl` | Serialized trained Random Forest model |
+| `scaler.pkl` | Fitted StandardScaler for consistent feature normalization |
+
+### How Predictions Work
+
+At inference time (`realtime_detection.py`):
+1. Raw traffic features are loaded and cleaned
+2. `scaler.pkl` normalizes the feature vector
+3. `ids_model.pkl` outputs a class label — `Benign` or an attack type
+4. The prediction and confidence score are passed to the Agentic AI engine
+
+> 📌 **To retrain the model**, run `MLmodel.py` after placing the CICIDS dataset CSVs in the project root. New `ids_model.pkl` and `scaler.pkl` files will be generated automatically.
+
+---
+
+## 🧠 Agentic AI Decision Engine (`AgenticAI.py`)
+
+The agent acts as an autonomous cybersecurity assistant, wrapping the ML prediction in intelligent decision logic:
 
 ```
 Observe → Analyze → Decide → Act
@@ -115,9 +166,17 @@ ELSE:
     → Mark as Normal Traffic
 ```
 
+### Agent Response Actions
+
+| Threat Level | Condition | Action |
+|---|---|---|
+| 🟢 Normal | Benign prediction | Log as normal traffic |
+| 🟡 Low | Attack, low confidence | Monitor closely |
+| 🔴 High | Attack, high confidence | Trigger alert + suggest mitigation |
+
 ---
 
-## 🌐 Streamlit Dashboard
+## 🌐 Streamlit Dashboard (`app.py`)
 
 The interactive dashboard provides:
 
@@ -142,7 +201,15 @@ cd Agentic-AI-based-AUtonomous-Cyber-Security-System
 pip install -r requirements.txt
 ```
 
-### 3. Run the Application
+### 3. Download the Dataset
+Download from [Kaggle](https://www.kaggle.com/datasets/ericanacletoribeiro/cicids2017-cleaned-and-preprocessed/data) and place the CSV files in the project root.
+
+### 4. Train the Model *(skip if using pre-trained `ids_model.pkl`)*
+```bash
+python MLmodel.py
+```
+
+### 5. Run the Application
 ```bash
 streamlit run app.py
 ```
@@ -156,28 +223,16 @@ Agentic-AI-based-AUtonomous-Cyber-Security-System/
 │
 ├── app.py                    # Streamlit dashboard
 ├── AgenticAI.py              # Agentic AI decision engine
-├── MLmodel.py                # ML model training
+├── MLmodel.py                # ML model training (Random Forest)
 ├── backend.py                # Backend processing
 ├── realtime_detection.py     # Real-time detection logic
-├── ids_model.pkl             # Trained ML model
-├── scaler.pkl                # Feature scaler
+├── ids_model.pkl             # Trained Random Forest model
+├── scaler.pkl                # Fitted feature scaler
 ├── attack_logs.csv           # Attack event logs
 ├── traffic_logs.csv          # Network traffic logs
-├── requirements.txt          # Dependencies
+├── requirements.txt          # Python dependencies
 └── assets/                   # Screenshots
 ```
-
----
-
-## 🚀 Future Enhancements
-
-- [ ] Add model evaluation metrics (accuracy, precision, recall, F1-score)
-- [ ] Real-time live network traffic monitoring
-- [ ] Integration with firewall automation systems
-- [ ] Deep learning-based intrusion detection (LSTM / CNN)
-- [ ] Cloud deployment on AWS / Azure
-- [ ] Multi-agent cybersecurity architecture
-- [ ] Automated IP blocking mechanism
 
 ---
 
@@ -186,16 +241,29 @@ Agentic-AI-based-AUtonomous-Cyber-Security-System/
 | Technology | Purpose |
 |---|---|
 | Python | Core language |
-| Scikit-learn | ML model (Random Forest) |
-| Pandas & NumPy | Data processing |
+| Scikit-learn | ML model (Random Forest Classifier) |
+| Pandas & NumPy | Data loading & feature processing |
 | Matplotlib | Visualization |
-| Streamlit | Interactive dashboard |
+| Streamlit | Interactive real-time dashboard |
+| Joblib | Model serialization (`ids_model.pkl`, `scaler.pkl`) |
+
+---
+
+## 🚀 Future Enhancements
+
+- [ ] Add model evaluation metrics (accuracy, precision, recall, F1-score)
+- [ ] Real-time live network packet capture (using `scapy` or `pyshark`)
+- [ ] Integration with firewall automation (e.g., `iptables`, AWS Security Groups)
+- [ ] Deep learning-based intrusion detection (LSTM / CNN)
+- [ ] Cloud deployment on AWS / Azure
+- [ ] Multi-agent cybersecurity architecture
+- [ ] Automated IP blocking mechanism
 
 ---
 
 ## 👩‍💻 Author
 
-**Khyathi Priya Kamireddi**
+**Khyathi Priya Kamireddi**  
 B.Tech — Computer Science Engineering (AI & ML)
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Khyathi-Priya)
